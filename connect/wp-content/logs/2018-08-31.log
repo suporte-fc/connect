@@ -1,0 +1,80 @@
+[01-Sep-2018 15:32:47 UTC] PHP Warning:  fopen(C:\wamp64\www\connect\wp-content\plugins\incubator-framework/demos/undefined/revolution_slider.zip): failed to open stream: No such file or directory in C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php on line 30
+[01-Sep-2018 15:32:47 UTC] PHP Stack trace:
+[01-Sep-2018 15:32:47 UTC] PHP   1. {main}() C:\wamp64\www\connect\wp-admin\themes.php:0
+[01-Sep-2018 15:32:47 UTC] PHP   2. require_once() C:\wamp64\www\connect\wp-admin\themes.php:10
+[01-Sep-2018 15:32:47 UTC] PHP   3. do_action() C:\wamp64\www\connect\wp-admin\admin.php:224
+[01-Sep-2018 15:32:47 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\connect\wp-includes\plugin.php:453
+[01-Sep-2018 15:32:47 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:310
+[01-Sep-2018 15:32:47 UTC] PHP   6. call_user_func_array:{C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286}() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 15:32:47 UTC] PHP   7. keydesign_import_demo() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 15:32:47 UTC] PHP   8. require() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:11
+[01-Sep-2018 15:32:47 UTC] PHP   9. keydesign_import_theme_files() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\import.php:40
+[01-Sep-2018 15:32:47 UTC] PHP  10. fopen() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:30
+[01-Sep-2018 15:32:47 UTC] PHP Warning:  fopen(C:\wamp64\www\connect\wp-content\plugins\incubator-framework/demos/undefined/demo_content.xml): failed to open stream: No such file or directory in C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php on line 31
+[01-Sep-2018 15:32:47 UTC] PHP Stack trace:
+[01-Sep-2018 15:32:47 UTC] PHP   1. {main}() C:\wamp64\www\connect\wp-admin\themes.php:0
+[01-Sep-2018 15:32:47 UTC] PHP   2. require_once() C:\wamp64\www\connect\wp-admin\themes.php:10
+[01-Sep-2018 15:32:47 UTC] PHP   3. do_action() C:\wamp64\www\connect\wp-admin\admin.php:224
+[01-Sep-2018 15:32:47 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\connect\wp-includes\plugin.php:453
+[01-Sep-2018 15:32:47 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:310
+[01-Sep-2018 15:32:47 UTC] PHP   6. call_user_func_array:{C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286}() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 15:32:47 UTC] PHP   7. keydesign_import_demo() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 15:32:47 UTC] PHP   8. require() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:11
+[01-Sep-2018 15:32:47 UTC] PHP   9. keydesign_import_theme_files() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\import.php:40
+[01-Sep-2018 15:32:47 UTC] PHP  10. fopen() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:31
+[01-Sep-2018 15:32:47 UTC] PHP Warning:  DOMDocument::loadXML(): Empty string supplied as input in C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\parsers.php on line 66
+[01-Sep-2018 15:32:47 UTC] PHP Stack trace:
+[01-Sep-2018 15:32:47 UTC] PHP   1. {main}() C:\wamp64\www\connect\wp-admin\themes.php:0
+[01-Sep-2018 15:32:47 UTC] PHP   2. require_once() C:\wamp64\www\connect\wp-admin\themes.php:10
+[01-Sep-2018 15:32:47 UTC] PHP   3. do_action() C:\wamp64\www\connect\wp-admin\admin.php:224
+[01-Sep-2018 15:32:47 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\connect\wp-includes\plugin.php:453
+[01-Sep-2018 15:32:47 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:310
+[01-Sep-2018 15:32:47 UTC] PHP   6. call_user_func_array:{C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286}() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 15:32:47 UTC] PHP   7. keydesign_import_demo() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 15:32:47 UTC] PHP   8. require() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:11
+[01-Sep-2018 15:32:47 UTC] PHP   9. WP_Import->import() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\import.php:51
+[01-Sep-2018 15:32:47 UTC] PHP  10. WP_Import->import_start() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\wordpress-importer.php:106
+[01-Sep-2018 15:32:47 UTC] PHP  11. WP_Import->parse() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\wordpress-importer.php:138
+[01-Sep-2018 15:32:47 UTC] PHP  12. WXR_Parser->parse() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\wordpress-importer.php:1123
+[01-Sep-2018 15:32:47 UTC] PHP  13. WXR_Parser_SimpleXML->parse() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\parsers.php:17
+[01-Sep-2018 15:32:47 UTC] PHP  14. DOMDocument->loadXML() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\parsers.php:66
+[01-Sep-2018 20:29:17 UTC] PHP Warning:  fopen(C:\wamp64\www\connect\wp-content\plugins\incubator-framework/demos/undefined/revolution_slider.zip): failed to open stream: No such file or directory in C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php on line 30
+[01-Sep-2018 20:29:17 UTC] PHP Stack trace:
+[01-Sep-2018 20:29:17 UTC] PHP   1. {main}() C:\wamp64\www\connect\wp-admin\themes.php:0
+[01-Sep-2018 20:29:17 UTC] PHP   2. require_once() C:\wamp64\www\connect\wp-admin\themes.php:10
+[01-Sep-2018 20:29:17 UTC] PHP   3. do_action() C:\wamp64\www\connect\wp-admin\admin.php:224
+[01-Sep-2018 20:29:17 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\connect\wp-includes\plugin.php:453
+[01-Sep-2018 20:29:17 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:310
+[01-Sep-2018 20:29:17 UTC] PHP   6. call_user_func_array:{C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286}() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 20:29:17 UTC] PHP   7. keydesign_import_demo() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 20:29:17 UTC] PHP   8. require() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:11
+[01-Sep-2018 20:29:17 UTC] PHP   9. keydesign_import_theme_files() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\import.php:40
+[01-Sep-2018 20:29:17 UTC] PHP  10. fopen() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:30
+[01-Sep-2018 20:29:17 UTC] PHP Warning:  fopen(C:\wamp64\www\connect\wp-content\plugins\incubator-framework/demos/undefined/demo_content.xml): failed to open stream: No such file or directory in C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php on line 31
+[01-Sep-2018 20:29:17 UTC] PHP Stack trace:
+[01-Sep-2018 20:29:17 UTC] PHP   1. {main}() C:\wamp64\www\connect\wp-admin\themes.php:0
+[01-Sep-2018 20:29:17 UTC] PHP   2. require_once() C:\wamp64\www\connect\wp-admin\themes.php:10
+[01-Sep-2018 20:29:17 UTC] PHP   3. do_action() C:\wamp64\www\connect\wp-admin\admin.php:224
+[01-Sep-2018 20:29:17 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\connect\wp-includes\plugin.php:453
+[01-Sep-2018 20:29:17 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:310
+[01-Sep-2018 20:29:17 UTC] PHP   6. call_user_func_array:{C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286}() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 20:29:17 UTC] PHP   7. keydesign_import_demo() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 20:29:17 UTC] PHP   8. require() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:11
+[01-Sep-2018 20:29:17 UTC] PHP   9. keydesign_import_theme_files() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\import.php:40
+[01-Sep-2018 20:29:17 UTC] PHP  10. fopen() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:31
+[01-Sep-2018 20:29:17 UTC] PHP Warning:  DOMDocument::loadXML(): Empty string supplied as input in C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\parsers.php on line 66
+[01-Sep-2018 20:29:17 UTC] PHP Stack trace:
+[01-Sep-2018 20:29:17 UTC] PHP   1. {main}() C:\wamp64\www\connect\wp-admin\themes.php:0
+[01-Sep-2018 20:29:17 UTC] PHP   2. require_once() C:\wamp64\www\connect\wp-admin\themes.php:10
+[01-Sep-2018 20:29:17 UTC] PHP   3. do_action() C:\wamp64\www\connect\wp-admin\admin.php:224
+[01-Sep-2018 20:29:17 UTC] PHP   4. WP_Hook->do_action() C:\wamp64\www\connect\wp-includes\plugin.php:453
+[01-Sep-2018 20:29:17 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:310
+[01-Sep-2018 20:29:17 UTC] PHP   6. call_user_func_array:{C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286}() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 20:29:17 UTC] PHP   7. keydesign_import_demo() C:\wamp64\www\connect\wp-includes\class-wp-hook.php:286
+[01-Sep-2018 20:29:17 UTC] PHP   8. require() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\demo-importer.php:11
+[01-Sep-2018 20:29:17 UTC] PHP   9. WP_Import->import() C:\wamp64\www\connect\wp-content\plugins\incubator-framework\import.php:51
+[01-Sep-2018 20:29:17 UTC] PHP  10. WP_Import->import_start() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\wordpress-importer.php:106
+[01-Sep-2018 20:29:17 UTC] PHP  11. WP_Import->parse() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\wordpress-importer.php:138
+[01-Sep-2018 20:29:17 UTC] PHP  12. WXR_Parser->parse() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\wordpress-importer.php:1123
+[01-Sep-2018 20:29:17 UTC] PHP  13. WXR_Parser_SimpleXML->parse() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\parsers.php:17
+[01-Sep-2018 20:29:17 UTC] PHP  14. DOMDocument->loadXML() C:\wamp64\www\connect\wp-content\plugins\wordpress-importer\parsers.php:66

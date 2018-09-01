@@ -1,0 +1,85 @@
+/*
+ Theme Name:   SB filho
+ Theme URI:    http://fabricadecriacao.com.br/
+ Description:  Tema exclusivo da InterFORENSICS 2019 que usa como base o Simple Bootstrap
+ Author:       Pedro Lustosa, Alex Lana
+ Author URI:   http://fabricadecriacao.com.br
+ Template:     simple-bootstrap
+ Version:      1.0.0
+ License: GPL
+ License URI: http://www.gnu.org/copyleft/gpl.html
+ Text Domain:  fct
+*/
+
+
+@import "../simple-bootstrap/style.css";
+
+
+
+
+/* ajustes gerais para o simple bootstrap - ini */
+* {
+	text-rendering:optimizeLegibility;
+}
+#content-wrapper, #content-wrapper > header, #page-content, #page-content + footer, #content-wrapper > * {
+	display:block !important;
+}
+/*
+#main {
+	width:100%;
+	left:auto;
+}
+*/
+nav > .container, #page-content .container, footer .container {
+	width:1560px;
+	max-width:100%;
+}
+#page-content {
+	min-height:100%;
+	height:auto;
+}
+.block {
+	background:transparent;
+	box-shadow:none;
+}
+#main > article section img {
+	background: transparent !important;
+	border:none;
+}
+
+#main {
+	width:100%;
+	left:0;
+}
+/* ajustes gerais para o simple bootstrap - fim */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra big for Twitter Bootstrap */
+@media screen and (min-width: 1440px) {
+	.container {
+		width:1370px;
+	}
+}
+/*
+@media screen and (min-width: 1600px) {
+	.container {
+		width:1440px;
+	}
+}
+*/

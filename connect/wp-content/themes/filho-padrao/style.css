@@ -1,0 +1,220 @@
+/*
+ Theme Name:   Fábrica de Criação
+ Theme URI:    http://fabricadecriacao.com.br/
+ Description:  Descrição sobre o tema ser exclusivo ou não
+ Author:       Nomes dos desenvolvedores e designers
+ Author URI:   http://fabricadecriacao.com.br
+ Template:     simple-bootstrap
+ Version:      1.0.0
+ License: GPL
+ License URI: http://www.gnu.org/copyleft/gpl.html
+ Text Domain:  fct
+*/
+
+@import "fonts.css";
+
+@import "../simple-bootstrap/style.css";
+
+
+/* ////////////////////////////////////////////////////////// */
+/* ajustes gerais para o simple bootstrap - ini */
+* {
+	text-rendering:optimizeLegibility;
+}
+#content-wrapper, #content-wrapper > header, #page-content, #page-content + footer, #content-wrapper > * {
+	display:block !important;
+}
+#main {
+/*	width:100%;
+*/	left:auto;
+}
+nav > .container, #page-content .container, footer .container {
+	width:1180px;
+	max-width:100%;
+}
+#page-content {
+/*	min-height:100%;
+*/	height:auto;
+}
+.block {
+	background:transparent;
+	box-shadow:none;
+}
+#main > article section img {
+	padding:0;
+	background-color:transparent;
+	border:none;
+}
+/* ajustes gerais para o simple bootstrap - fim */
+
+
+/* ////////////////////////////////////////////////////////// */
+/* fixar o cabecalho quando a gente rola a pagina - ini */
+/* dah pra colocar isso no site geral ou soh no responsivo
+#content-wrapper > header {
+	position:fixed;
+	width:100%;
+	z-index:1000;
+	top:0;
+	transition:0.5s top;
+}
+.rolando #content-wrapper > header {
+	transition:0.4s top linear;
+}
+*/
+/* fixar o cabecalho quando a gente rola a pagina - fim */
+
+
+/* ////////////////////////////////////////////////////////// */
+/* fixar o rodape embaixo da pagina - ini */
+html {
+	height:100%;
+}
+body {
+	font-family:'NOMEDAFONTE','sans-serif';
+	min-height:100%;
+	position:relative;
+	padding-bottom:320px; /* essa medida precisa ser a mesma da altura do footer */
+}
+#page-content + footer {
+	height:320px; /* essa medida precisa ser a mesma do padding do body */
+	bottom:0;
+	width:100%;
+	position:absolute;
+}
+#inner-footer {
+	height:100%;
+}
+/* fixar o rodape embaixo da pagina - fim */
+
+
+/* ////////////////////////////////////////////////////////// */
+/* titulos - ini */
+h1, h2, h3, h4, h5, h6 {
+	font-family:'NOMEDAFONTE','sans-serif';
+}
+.article-header {
+	border-bottom:none;
+}
+/* titulos - fim */
+
+
+/* ////////////////////////////////////////////////////////// */
+/* ajustes do menu e da logo - ini */
+.navbar-default { /* barra q contem logo e menu */
+/*
+	background-color:#222222;
+	border-color:#121212;
+	border-bottom:none;
+*/
+}
+.navbar-brand {
+/*
+	width:200px;
+	height:100px;
+	overflow:hidden;
+	padding:0;
+	white-space:nowrap;
+	text-indent:150%;
+	color:transparent !important;
+	background:url(images/logo.png) center center no-repeat;
+	background-size:100%;
+*/
+}
+.nav.navbar-nav { /* ul q contem o menu principal */
+}
+.navbar-default .navbar-nav > li { /* NAO formatar nenhum espacamento nesse elemento */
+}
+.navbar-default .navbar-nav > li > a { /* evitar usar height nisso aqui */
+/*
+	color:yellow;
+	background:green;
+*/
+/*	padding:30px 20px; */ /* USAR O PADDING PARA AJUSTAR A ALTURA do menu, em outros casos, pode fixar essa altura colocando esse elemento como "flex" para posicionar o texto centralizado, por exemplo */
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+/*
+	color:red;
+	background:blue;
+*/
+}
+.navbar-default .navbar-nav > .active > a {
+/*
+	color:#ffffff;
+	background-color:#090909;
+*/
+}
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+/*
+	color:#ffffff;
+	background-color:#090909;
+*/
+}
+/* ajustes do menu e da logo - fim */
+
+
+/* formularios */
+.wpcf7-response-output {
+	position:fixed;
+	top:40%;
+	width:40%;
+	left:30%;
+	background:white;
+	color:#004F86;
+	box-shadow:0 0 70px rgba(0,0,0,0.7);
+	z-index:2;
+	padding:17px 19px !important;
+	border-radius:6px;
+}
+.wpcf7-response-output:before {
+	display: block;
+	content: ' ';
+	background:#004F86 url(images/fechar-x.svg) center center no-repeat;
+	background-size:75%;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	position:absolute;
+	right:-10px;
+	top:-10px;
+	border-radius:5px;
+	box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+.wpcf7-response-output.wpcf7-mail-sent-ok:before {
+	background-color:white;
+	border:2px solid #398f14;
+}
+.ajax-loader {
+	width: 24px !important;
+	height: 24px !important;
+	margin: auto !important;
+	margin-top: 10px !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-radius: 50%;
+	display: block !important;
+}
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////// */
+/* Extra big for Twitter Bootstrap */
+@media screen and (min-width: 1400px) {
+	.container {
+		width: 1370px;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.container {
+		width: 1570px;
+	}
+}
+@media screen and (min-width: 1900px) {
+	.container {
+		width: 1870px;
+	}
+}
